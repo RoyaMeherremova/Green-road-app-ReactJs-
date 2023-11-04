@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+#nav-area {
+
+    .container {
+        max-width: 1438px !important;
+    }
+
+    .header__left {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        .contact-adress {
+            div {
+                display: flex;
+                align-items: center;
+
+                p {
+                    margin: 0px;
+                    font-size: 15px;
+
+                }
+
+            }
+        }
+    }
+
+
+    .navbar-collapse {
+        margin-top: 10px;
+        margin-left: 30px;
+
+        .navigate {
+            display: flex;
+            list-style: none;
+            gap: 50px;
+
+            li {
+                a {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                    letter-spacing: .1em;
+                    color: black !important;
+                    font-weight: 500;
+                    cursor: pointer;
+                    font-family: Montserrat, sans-serif;
+
+                }
+            }
+        }
+    }
+
+    .header__right {
+        display: flex;
+        align-items: center;
+        gap: 46px;
+        font-size: 14px;
+
+        a {
+            letter-spacing: .1em;
+            margin-top: 3px;
+            color: black !important;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            font-family: Montserrat, sans-serif;
+
+            &:hover {
+                color: rgba(71, 173, 63, 255) !important;
+
+            }
+
+
+
+        }
+
+        :nth-child(2) {
+            border: 1px solid #05073c;
+            border-radius: 200px;
+            padding: 7px 20px;
+            line-height: 25px;
+
+            &:hover {
+                background-color: rgba(71, 173, 63, 255);
+                border-color: rgba(71, 173, 63, 255);
+                color: white !important;
+
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+}
