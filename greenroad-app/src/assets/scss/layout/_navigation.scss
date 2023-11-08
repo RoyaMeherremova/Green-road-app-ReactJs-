@@ -2,9 +2,9 @@
 
 #nav-area {
 
-    .container {
-        max-width: 1438px !important;
-    }
+    // .container {
+    //     max-width: 1438px !important;
+    // }
 
     .header__left {
         display: flex;
@@ -32,7 +32,7 @@
 
 
     .navbar-collapse {
-        margin-top: 10px;
+        margin-top: 25px;
         margin-left: 30px;
 
         .navigate {
@@ -56,10 +56,11 @@
     }
 
     .header__right {
+        margin-top: 23px;
         display: flex;
         align-items: center;
         gap: 46px;
-        font-size: 14px;
+        font-size: 13px;
 
         a {
             letter-spacing: .1em;

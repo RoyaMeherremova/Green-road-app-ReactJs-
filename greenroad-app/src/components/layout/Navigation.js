@@ -2,26 +2,14 @@ import React from 'react'
 import img from '../../assets/images/layout/logo.jpg'
 import '../../assets/scss/layout/_navigation.scss';
 import { useState } from 'react';
-// import {
-//     Collapse,
-//     Navbar,
-//     NavbarToggler,
-//     NavbarBrand,
-//     Nav,
-//     NavItem,
-//     NavLink,
-// } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 function Navigation() {
-    // const [collapsed, setCollapsed] = useState(true);
-
-    // const toggleNavbar = () => setCollapsed(!collapsed);
 
     return (
         <>
             <section id='nav-area'>
-                <div className='container'>
+                <div className='container my-2'>
                     <div className='row'>
                         <div className='col-3 mt-2 d-flex'>
                             <div className='header__left'>
@@ -56,31 +44,13 @@ function Navigation() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-2 mt-2'>
+                        <div className='col-2 mb-5'>
                             <div className='header__right'>
                                 <a className='register'>Sign up</a>
                                 <a className='login'>Log in</a>
                             </div>
                         </div>
                     </div>
-                    {/* <Navbar color="faded" light>
-                        <NavbarBrand href="/" className="me-auto">
-                            reactstrap
-                        </NavbarBrand>
-                        <NavbarToggler onClick={toggleNavbar} className="me-2" />
-                        <Collapse isOpen={!collapsed} navbar>
-                            <Nav navbar>
-                                <NavItem>
-                                    <NavLink href="/components/">Components</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">
-                                        GitHub
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
-                    </Navbar> */}
                 </div>
             </section>
         </>

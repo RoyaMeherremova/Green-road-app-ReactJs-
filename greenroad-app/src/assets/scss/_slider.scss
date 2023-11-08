@@ -1,0 +1,48 @@
+.container {
+    max-width: 1350px !important;
+}
+
+#slider {
+
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-indicators {
+        button {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+    }
+
+    .slide {
+        width: 1337px;
+        height: 600px;
+    }
+
+    .slide-content {
+        position: relative;
+        right: 208px;
+        color: #080808;
+        right: 51%;
+        bottom: 60px;
+
+        :nth-child(2) {
+            margin-right: 6%;
+        }
+
+        h1 {
+            font-size: 52px;
+            line-height: 51px;
+            font-family: 'Caveat', cursive;
+            color: white;
+        }
+
+    }
+
+
+}
