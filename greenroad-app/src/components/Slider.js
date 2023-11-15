@@ -11,35 +11,38 @@ import slider2 from '../assets/images/slider/slider2.jpg'
 function Slider() {
     return (
         <section id='slider'>
-            <Carousel interval={null}>
-                <Carousel.Item>
-                    <img className='slide' src={slider1} />
-                    <Carousel.Caption>
-                        <div className='slide-content'>
-                            <h1>Tranquil nature</h1>
-                            <h1>Dynamic city</h1>
-                        </div>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className='slide' src={slider2} />
-                    <Carousel.Caption>
-                        <div className='slide-content'>
-                            <h1>Send <span>flowers</span> like</h1>
-                            <h1>you mean it</h1>
-                        </div>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img className='slide' src={slider1} />
-                    <Carousel.Caption>
-                        <div className='slide-content'>
-                            <h1>Tranquil nature</h1>
-                            <h1>Dynamic city</h1>
-                        </div>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+            <div className='container'>
+                <Carousel interval={null}>
+                    <Carousel.Item>
+                        <img className='slide' src={slider1} />
+                        <Carousel.Caption>
+                            <div className='slide-content'>
+                                <h1>Tranquil nature</h1>
+                                <h1>Dynamic city</h1>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className='slide' src={slider2} />
+                        <Carousel.Caption>
+                            <div className='slide-content'>
+                                <h1>Send <span>flowers</span> like</h1>
+                                <h1>you mean it</h1>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img className='slide' src={slider1} />
+                        <Carousel.Caption>
+                            <div className='slide-content'>
+                                <h1>Tranquil nature</h1>
+                                <h1>Dynamic city</h1>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+            </div>
+
         </section>
 
     );

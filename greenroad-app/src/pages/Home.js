@@ -10,29 +10,28 @@ import BannerHeader from '../components/banner/BannerHeader';
 import Review from '../components/Review';
 import Product from '../components/common/Product';
 import ProductHeader from '../components/common/ProductHeader';
-import Tours from '../components/Tour';
+import Tour from '../components/Tour';
+import Subscrive from '../components/Subscrive';
 
 function Home() {
     return (
         <div>
-            <div className='container'>
-                <section id='header'>
-                    <Navigation />
-                </section>
-                <section id='main'>
-                    <Slider />
-                    <CategoryHeader />
-                    <Category />
-                    <BannerHeader />
-                    <Banner />
-                    <ProductHeader />
-                    <Product />
-                    <Review />
-                    <Tours />
-                </section>
-                <section id='footer'><Footer /></section>
-            </div>
-
+            <section id='header'>
+                <Navigation />
+            </section>
+            <section id='main'>
+                <Slider />
+                <CategoryHeader />
+                <Category />
+                <BannerHeader />
+                <Banner />
+                <ProductHeader />
+                <Product />
+                <Review />
+                <Tour />
+                <Subscrive />
+            </section>
+            <section id='footer'><Footer /></section>
         </div>
     )
 }

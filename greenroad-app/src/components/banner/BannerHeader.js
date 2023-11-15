@@ -11,10 +11,12 @@ function BannerHeader() {
         fontFamily: "DM sans, sans-serif"
 
     };
+    const container = {
+        maxWidth: "1362px !important"
+    };
     return (
         <div>
-            <h2 style={header} className=' mt-5'>Why choose Tourz</h2>
-
+            <div className='container' style={container} ><h2 style={header} className=' mt-5'>Why choose Tourz</h2></div>
         </div>
     )
 }

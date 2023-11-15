@@ -8,13 +8,14 @@ function CategoryHeader() {
         lineHeight: "1.5",
         fontWeight: "700",
         color: "hsl(136, 62%, 7%)",
-        fontFamily: "DM sans, sans-serif"
-
+        fontFamily: "DM sans, sans-serif",
+    };
+    const container = {
+        maxWidth: "1362px !important"
     };
     return (
         <div>
-            <h2 style={header} className=' mt-5'>Popular things to do</h2>
-
+            <div className='container' style={container} ><h2 style={header} className=' mt-5'>Popular things to do</h2></div>
         </div>
     )
 }

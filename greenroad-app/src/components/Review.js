@@ -7,42 +7,45 @@ function Review() {
     return (
         <div>
             <section id='review'>
-                <h2 className='text-center'>Customer Reviews</h2>
-                <Carousel interval={null}>
-                    <Carousel.Item>
-                        <img className='comma' src={review1} />
-                        <div className='slide-cont'>
-                            <p>The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!</p>
-                            <div>Ali Tufan</div>
-                            <div>Product Manager, Apple Inc</div>
-                            <div className='custom-img'>
-                                <img src={custom} />
+                <div className='container'>
+                    <h2 className='text-center'>Customer Reviews</h2>
+                    <Carousel interval={null}>
+                        <Carousel.Item>
+                            <img className='comma' src={review1} />
+                            <div className='slide-cont'>
+                                <p>The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!</p>
+                                <div>Ali Tufan</div>
+                                <div>Product Manager, Apple Inc</div>
+                                <div className='custom-img'>
+                                    <img src={custom} />
+                                </div>
                             </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className='comma' src={review1} />
-                        <div className='slide-cont'>
-                            <p>The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!</p>
-                            <div>Ali Tufan</div>
-                            <div>Product Manager, Apple Inc</div>
-                            <div className='custom-img'>
-                                <img src={custom} />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className='comma' src={review1} />
+                            <div className='slide-cont'>
+                                <p>The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!</p>
+                                <div>Ali Tufan</div>
+                                <div>Product Manager, Apple Inc</div>
+                                <div className='custom-img'>
+                                    <img src={custom} />
+                                </div>
                             </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img className='comma' src={review1} />
-                        <div className='slide-cont'>
-                            <p>The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!</p>
-                            <div>Ali Tufan</div>
-                            <div>Product Manager, Apple Inc</div>
-                            <div className='custom-img'>
-                                <img src={custom} />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img className='comma' src={review1} />
+                            <div className='slide-cont'>
+                                <p>The tours in this website are great. I had been really enjoy with my family! The team is very professional and taking care of the customers. Will surely recommend to my freind to join this company!</p>
+                                <div>Ali Tufan</div>
+                                <div>Product Manager, Apple Inc</div>
+                                <div className='custom-img'>
+                                    <img src={custom} />
+                                </div>
                             </div>
-                        </div>
-                    </Carousel.Item>
-                </Carousel>
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
+
             </section>
 
         </div>

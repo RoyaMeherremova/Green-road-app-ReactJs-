@@ -13,89 +13,92 @@ function Product() {
     return (
         <>
             <section id='products'>
-                <div className='row my-3'>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                <div className='container'>
+                    <div className='row my-3'>
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='product'>
-                            <div className='prod-img'>
-                                <img src={product1} />
+                        <div className='col-3'>
+                            <div className='product'>
+                                <div className='prod-img'>
+                                    <img src={product1} />
+                                </div>
+                                <h6>Quba</h6>
+                                <span className='add-cart'><a>Add to cart</a></span>
+                                <div className='price'><span>$<span>259</span></span></div>
                             </div>
-                            <h6>Quba</h6>
-                            <span className='add-cart'><a>Add to cart</a></span>
-                            <div className='price'><span>$<span>259</span></span></div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
+
             </section>
         </>
     )
