@@ -13,10 +13,14 @@ function Tour() {
                         <h3 className='title'>Kenya vs Tanzania Safari: The Better African Safari Experience</h3>
                     </div>
                     <div className='col-4'>
-
+                        <img src={product1} />
+                        <div class="lh-13">April 06 2023</div>
+                        <h3 className='title'>Kenya vs Tanzania Safari: The Better African Safari Experience</h3>
                     </div>
                     <div className='col-4'>
-
+                        <img src={product1} />
+                        <div class="lh-13">April 06 2023</div>
+                        <h3 className='title'>Kenya vs Tanzania Safari: The Better African Safari Experience</h3>
                     </div>
                 </div>
             </section>
