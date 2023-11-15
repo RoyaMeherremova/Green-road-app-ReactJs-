@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/scss/_category.scss'
-import product1 from '../assets/images/product/product1.jpg'
+import '../../assets/scss/_category.scss'
+import product1 from '../../assets/images/product/product1.jpg'
 
 function Category() {
     return (

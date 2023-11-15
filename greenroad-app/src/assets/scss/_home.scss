@@ -1,43 +1,5 @@
 .container {
     max-width: 1375px !important;
 
-    h2 {
-        margin-left: 10px;
-        font-size: 30px;
-        line-height: 1.5;
-        font-weight: 700;
-        color: hsl(136, 62%, 7%);
-        font-family: "DM sans", sans-serif;
-
-    }
-}
-
-
-
-.header-background {
-    h4 {
-        padding: 0px;
-        right: 8%;
-        font-family: Montserrat, sans-serif;
-    }
-
-    .arrow-right {
-        right: 95px;
-        margin-top: 8px;
-
-    }
-
-    h4,
-    .arrow-right {
-        position: absolute;
-        cursor: pointer;
-
-        &:hover {
-            color: rgba(71, 173, 63, 255) !important;
-
-
-        }
-    }
-
 
 }

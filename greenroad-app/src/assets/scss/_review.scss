@@ -1,0 +1,53 @@
+#review {
+    button {
+        display: none;
+    }
+
+    .carousel {
+        text-align: center;
+    }
+
+    .carousel-item {
+        height: 100%;
+    }
+
+    .slide-cont {
+        width: 850px;
+        height: 342px;
+        position: relative;
+        left: 17%;
+
+        p {
+            font-weight: 500;
+            line-height: 1.8 !important;
+            font-size: 20px;
+            color: hsl(136deg 42.77% 19.63%);
+            line-height: 1.8 !important;
+            font-family: "DM sans", sans-serif;
+            margin-top: 2%;
+        }
+
+        :nth-child(2) {
+            font-weight: 500;
+            line-height: 1.8 !important;
+            font-size: 16px;
+            color: hsl(136deg 42.77% 19.63%);
+            line-height: 1.8 !important;
+            font-family: "DM sans", sans-serif;
+            margin-top: 7%;
+        }
+    }
+
+    .comma {
+        width: 130px;
+        height: 130px;
+    }
+
+    .custom-img {
+        width: 70px;
+        height: 70px;
+        position: relative;
+        top: 4%;
+    }
+
+}
